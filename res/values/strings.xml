@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Periodic Table</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bLearn">Learn</string>
+    <string name="bTable">Table</string>
+    <string name="bLookup">Lookup</string>
+    <string name="title_activity_learn">LearnActivity</string>
+    <string name="title_activity_table">TableActivity</string>
+    <string name="title_activity_lookup">LookupActivity</string>
+    <string name="title_section1">Search</string>
+    <string name="title_section2">Index</string>
+    <string name="title_section3">Section 3</string>
+    <string name="tvSearch">Search</string>
+    <string name="etSearch">Enter Name or Atomic #</string>
+    <string name="title_activity_view">ViewActivity</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">आवर्त सारणी</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bLearn">सीखें</string>
+    <string name="bTable">तालिका</string>
+    <string name="bLookup">अन्वेषण</string>
+    <string name="title_activity_learn">LearnActivity</string>
+    <string name="title_activity_table">TableActivity</string>
+    <string name="title_activity_lookup">LookupActivity</string>
+    <string name="title_section1">खोज</string>
+    <string name="title_section2">अनुक्रमणिका</string>
+    <string name="title_section3">Section 3</string>
+    <string name="tvSearch">खोज</string>
+    <string name="etSearch">नाम या परमाणु # दर्ज करें</string>
+
+</resources>

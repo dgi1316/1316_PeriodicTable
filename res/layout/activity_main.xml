@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:gravity="center" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+        	android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/btnLearn"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bLearn" />
+
+            <Button
+                android:id="@+id/btnTable"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bTable" />
+
+            <Button
+                android:id="@+id/btnLookup"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bLookup" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.ads.AdView android:id="@+id/adViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ads:adUnitId="a1528398810dc31"
+        ads:adSize="BANNER"
+        ads:loadAdOnCreate="true" />
+
+</LinearLayout>
